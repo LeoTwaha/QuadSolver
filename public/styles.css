@@ -1,0 +1,149 @@
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+h1 {
+    
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    align-items: center;
+    justify-content: center; 
+}
+.input-container {
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 50px;
+    border: 1px solid;
+    width: 100%;
+    height: 200px;
+}
+.formula-img {
+    display: block;
+    width: 40vw;
+    max-width: 475px;
+    height: auto;
+    max-height: 200px;
+   margin: auto;
+    margin-bottom: -20px;
+   
+}
+.eqa{
+    display: block;
+    width: 50vw;
+    max-width: 375px;
+    height: auto;
+    max-height: 100px;
+   margin: auto;
+}
+.factorImg{
+   display: block;
+    width: 50vw;
+    max-width: 375px;
+    height: auto;
+    max-height: 100px;
+   margin: auto;
+   
+}
+p{
+    margin: 0;
+    padding: 10px;
+}
+#results{
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+}
+input{
+    margin: 10px;
+}
+::placeholder{
+    color: black;
+    font-family: "Newsreader", serif;
+    font-weight: 5000;
+    text-align: center;
+}
+.result{
+    text-align: center;
+    font-size: 6.2vw;
+}
+
+
+.input-container h2 {
+    margin: 0;
+}
+
+.input-b {
+    text-align: center; 
+    width: 50px; 
+    background-color: rgba(245, 245, 85, 0.816);
+    font-size: 50px;
+    height: 50px;
+    border-radius: 10% ;
+}
+#factorI{
+    font-size: 40px;
+    width: 40vw;
+   background-color: rgba(245, 245, 85, 0.816);
+   max-width: 500px;
+}
+.modeBtns > button{
+   
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    margin-left: 1vw ;
+    
+    border: 3px solid gray;
+    -webkit-text-stroke: .1px;
+    -webkit-text-stroke-color: black;
+border-radius: 9%;
+
+}
+.modeBtns{
+
+    display: flex;
+    justify-content:center;
+    margin-bottom: 5vw;
+    
+}
+#functionB{
+    color: purple;
+}
+#formulaB{
+    color: yellow;
+}
+#factorB{
+    color: orange;
+}
+button {
+    padding: 5px 10px;
+    
+}
+
+@media (max-width : 500px) {
+    .input-b {
+        text-align: center; 
+        width: 30px; 
+        background-color: rgba(245, 245, 85, 0.816);
+        font-size: 30px;
+        height: 30px;
+        border-radius: 10% ;
+    }
+    input{
+        margin: 5px;
+    }
+}
