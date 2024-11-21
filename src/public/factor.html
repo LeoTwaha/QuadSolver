@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quad Solver</title>
+</head>
+<body id="factor">
+    <h1>Quad Solver</h1>
+    <div class="modeBtns">
+        <button id="functionB" onclick="nextPage('func')">Function</button> 
+        <button id="formulaB" onclick="nextPage('')">Formula</button>
+        <button id="factorB" onclick="nextPage('factor')">Factor</button>
+    </div>
+    <div id="img">
+    <img class="factorImg" src="./equation.png">
+    </div>
+
+  
+    <div class="input-container">
+        <h2>Enter:</h2>
+        <form id="quadForm">
+        <input type="text" id="factorI"   placeholder="x^2 + bx + c" required>
+        <button id="solve" type="submit">Solve</button>
+        </form>
+        
+    </div>
+    <div id="results">
+        <p id="posResult" class="result"></p>
+        <p id="negResult" class="result"></p>
+    </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.13/nerdamer.core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.13/Algebra.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.13/Calculus.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.13/Solve.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
